@@ -1,0 +1,36 @@
+{
+  "contracts": "contracts",
+
+  "env": {
+    "block": {
+      "coinbase" : "0x0000000000000000000000000000000000000001",
+      "difficulty" : "0x0100",
+      "gasLimit" : 3141592,
+      "gasPrice": 60000000000
+    },
+    "accounts": {
+      "0x1da521711891bfd80612f587bbcf69dbb060906b": {
+        "pkey": "0xd4ec9f9e8c9a709340ff587b1e5fdc56339e7904a960e17a1c992aee6576ecdb",
+        "balance": 2000000000000000000
+      },
+      "0xe7589d742ed2c2897ac0cb95f9c3f3b0beb7cd19": {
+        "pkey": "0x99140bd807ec949db508a9ffc0715b4e976e83412dfb47f0d48a80b0ff302a14",
+        "balance": 2000000000000000000
+      },
+      "0x9baa3262d47a97013ab5d03b3c9ae711cfbbe1b6": {
+        "pkey": "0x09bbcc355ae3a17f91a054fa0538985850d0cc1ef673b91f48db101b1eedce7f",
+        "balance": 2000000000000000000
+      },
+      "0x796f18a9a36abfc72f01f0eb3923282d0a07255c": {
+        "pkey": "0x7fef322d37781c73b595f8773ef1dad3497a7c9bb3f8bb83f36caa6075bf0ec5",
+        "balance": 2000000000000000000
+      },
+      "0xdedb49385ad5b94a16f236a6890cf9e0b1e30392": {
+        "balance": 2000000000000000000,
+        "nonce": 1234,
+        "pkey": "0x974f963ee4571e86e5f9bc3b493e453db9c15e5bd19829a4ef9a790de0da0015",
+        "default": true
+      }
+    }
+  }
+}

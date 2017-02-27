@@ -1,4 +1,4 @@
-pragma solidity ^0.4.5;
+pragma solidity ^0.4.9;
 
 /*
  * This is an example gambling contract that works without any ABI interface.
@@ -26,7 +26,7 @@ contract dgame {
 
   // constructor sets default registration duration to 180s
   function dgame() {
-    registerDuration = 180;
+    registerDuration = 300;
   }
 
   // fallback function is used to register players and pay winner

@@ -1,4 +1,4 @@
-pragma solidity ^0.4.8;
+pragma solidity ^0.4.10;
 
 /*
  * This is an example gambling contract that works without any ABI interface.
@@ -52,8 +52,6 @@ contract dgame {
             players[currentGamenumber][winner].send(this.balance);
         } else {
             // status ongoing: register player
-            if (msg.value != 0)
-                throw;  // prevent players from sending Ether to the game
             if (registered[gameNumber][msg.sender])
                 throw;  // prevent same player to register twice with same address
             registered[gameNumber][msg.sender] = true;

@@ -26,7 +26,7 @@ contract dgame {
     
     // constructor sets default registration duration to 5min
     function dgame() {
-        registerDuration = 300;
+        registerDuration = 600;
     }
     
     // fallback function is used for entire game logic
